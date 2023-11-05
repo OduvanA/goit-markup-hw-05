@@ -457,39 +457,41 @@ button {
     border-radius: 4px;
     border: 1px solid #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-subscribe-box-input::placeholder {
     color: #ffffff;
-    font-family: Roboto;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-}
+
+} 
 
 .footer-subscribe-btn {
     display: flex;
-    gap: 16px;
     align-items: center;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 0;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
     color: #ffffff;
     min-width: 165px;
     height: 40px;
     border: none;
     padding: 8px 24px;
-    /* margin: auto; */
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer-subscribe-box-icon {
     fill: #ffffff; 
-    margin: auto;
+    margin-left: 16px;
 }
 
 /* ============== BACKDROP ============== */
